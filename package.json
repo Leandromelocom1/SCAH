@@ -33,11 +33,12 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.17.0"
   },
   "scripts": {
+    "build": "npm install --legacy-peer-deps && next build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "build": "npm install --legacy-peer-deps && next build"
+    "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": [
