@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import BarcodeScanner from './BarcodeScanner';
 import axios from 'axios';
 
 const SteelExit = () => {
@@ -122,7 +121,6 @@ const SteelExit = () => {
         {error && <p className="text-danger">{error}</p>}
         <button type="submit" className="btn btn-primary">Registrar Saída</button>
       </form>
-      {isScanning && <BarcodeScanner onDetected={handleDetected} />}
     </div>
   );
 };
