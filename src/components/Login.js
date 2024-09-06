@@ -35,7 +35,7 @@ const Login = ({ onLogin }) => {
         <div className="col-md-6">
           <div className="card mt-5">
             <div className="card-body">
-              <h2 className="text-center mb-4">Login</h2>
+              <h2 className="text-center mb-4">Loginnn</h2>
               <form onSubmit={handleSubmit} className="login-form">
                 {error && <div className="alert alert-danger">{error}</div>}
                 <div className="form-group mb-3">
